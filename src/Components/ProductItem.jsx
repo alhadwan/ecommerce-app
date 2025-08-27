@@ -10,6 +10,7 @@ const ProductItem = ({ productItem }) => {
         alt={productItem.name}
       /> */}
       <img
+        className="card-image"
         src={`${import.meta.env.BASE_URL}${productItem.image.replace(/^\//, "")}`}
         alt={productItem.name}
       />
